@@ -1,2 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context path="/DSWebPractica05"/>
+<Context path="/DSWebPractica05">
+    <Resource name="jdbc/mydb" auth="Container" type="javax.sql.DataSource"
+           maxTotal="100" maxIdle="30" maxWaitMillis="10000"
+           username="postgres" password="postgres"
+           driverClassName="org.postgresql.Driver"
+           url="jdbc:postgresql://172.17.0.2:5432/mydb"/>
+    
+ </Context>
+
+
+
+
+
+
+
